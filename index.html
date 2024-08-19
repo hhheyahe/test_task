@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main page</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <section class="header--desktop">
+        <div class="header--top">
+          <div class="info">
+            <div class="info--item">
+              <a href="#" title="Магазины">Магазины</a>
+            </div>
+            <div class="info--item">
+              <a href="mailto:info@kraskizdes.ru" title="Почта">info@kraskizdes.ru</a>
+            </div>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="#" title="Доставка">Доставка</a></li>
+              <li><a href="#" title="Оплата">Оплата</a></li>
+              <li><a href="#" title="Возврат">Возврат</a></li>
+              <li><a href="#" title="Помощь">Помощь</a></li>
+              <li><a href="#" title="О нас">О нас</a></li>
+              <li><a href="#" title="Для бизнеса">Для бизнеса</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="header--middle">
+          <div class="logo">
+            <img src="../images/logo.png" title="logo" alt="">
+          </div>
+          <div class="menu">
+            <button>Каталог<span></span></button>
+          </div>
+          <div class="searchbar">
+            <input placeholder="Искать товары">
+            <button><span></span></button>
+          </div>
+          <div class="icons">
+            <div class="icons--item">
+              <img src="../images/icon1.png">
+              <a href="#" title="Войти">Войти</a>
+            </div>
+            <div class="icons--item">
+              <img src="../images/icon2.png">
+              <a href="#" title="Избранное">Избранное</a>
+            </div>
+            <div class="icons--item">
+              <img src="../images/icon3.png">
+              <a href="#" title="Корзина">Корзина</a>
+            </div>
+          </div>
+        </div>
+        <div class="header--bottom">
+          <div class="btns">
+            <button>Акции</button>
+            <button>Бренды</button>
+            <button>Premium бренды</button>
+            <button>Подбор по параметрам</button>
+            <button>Онлайн-колеровка</button>
+            <button>Новости компании</button>
+          </div>
+          <div class="contact">
+            <a href="tel:8(495)120-81-55">8 (495) 120-81-55</a>
+          </div>
+        </div>
+      </section>
+      <div class="header--mobile">
+        <div class="top">
+          <button class="location"></button>
+          <div class="logo">
+            <a href="#" title="logo"><img src="../images/logo.png"></a>
+          </div>
+          <button class="phone"></button>
+        </div>
+        <div class="middle">
+          <button class="burger" onclick="toggleBurgerMenu()"></button>
+          <div class="searchbar">
+            <input placeholder="Поиск">
+            <button><span></span></button>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="btns">
+            <button>Спецпредложения</button>
+            <button>Акции</button>
+          </div>
+        </div>
+        <div class="burger-menu">
+          <div class="content">
+            <button class="close" onclick="toggleBurgerMenu()"></button>
+            <div class="menu">
+              <ul class="catalog">
+                <li><a href="#" title="Каталог"><span></span>Каталог</a></li>
+                <li><a href="#" title="Корзина"><span></span>Корзина</a></li>
+                <li><a href="#" title="Избранное"><span></span>Избранное</a></li>
+                <li><a href="#" title="Профиль"><span></span>Профиль</a></li>
+              </ul>
+              <ul class="contact">
+                <li><a href="#" title="email"><span></span>@krasizdes.ru</a></li>
+                <li><a href="tel:8(495)120-81-55" title="phone"><span></span>8 (495) 120-81-55</a></li>
+              </ul>
+              <ul>
+                <li><a href="#" title="Доставка">Доставка</a></li>
+                <li><a href="#" title="Оплата">Оплата</a></li>
+                <li><a href="#" title="Возврат">Возврат</a></li>
+                <li><a href="#" title="Помощь">Помощь</a></li>
+                <li><a href="#" title="О нас">О нас</a></li>
+                <li><a href="#" title="Для бизнеса">Для бизнеса</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="content">
+      <div class="slider">
+        <div class="swiper">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="item">
+                  <div class="item-content">
+                    <div class="pic">
+                      <img src="../images/slide1.png" title="Slide" alt="">
+                    </div>
+                    <div class="text">
+                      <p>-25%</p>
+                      <p>Скидки на выделенные товары Benjamine Moore</p>
+                    </div>
+                  </div>
+                  <button></button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="item">
+                  <div class="item-content">
+                    <div class="pic">
+                      <img src="../images/discount.jpg" title="Slide" alt="">
+                    </div>
+                    <div class="text">
+                      <p>Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+                      <p>0.95 л &#9679; 2 л</p>
+                      <p>от 3600 ₽ <span>4500 ₽</span></p>
+                    </div>
+                    <div class="discount">-25%</div>
+                  </div>
+                  <button></button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="item">
+                  <div class="item-content">
+                    <div class="pic">
+                      <img src="../images/slider3.png" title="Slide" alt="">
+                    </div>
+                    <div class="text">
+                      <p>Benjamin Moore Aura 532 Bath & Spa Waterborne Interior Paint Matte</p>
+                      <p>0.95 л &#9679; 2 л</p>
+                      <p>5200 ₽ <span>5720 ₽</span></p>
+                    </div>
+                    <div class="discount">-10%</div>
+                  </div>
+                  <button></button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="item">
+                  <div class="item-content">
+                    <div class="pic">
+                      <img src="../images/discount.jpg" title="Slide" alt="">
+                    </div>
+                    <div class="text">
+                      <p>Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+                      <p>0.95 л &#9679; 2 л</p>
+                      <p>от 3600 ₽ <span>4500 ₽</span></p>
+                    </div>
+                    <div class="discount">-25%</div>
+                  </div>
+                  <button></button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="item">
+                  <div class="item-content">
+                    <div class="pic">
+                      <img src="../images/discount.jpg" title="Slide" alt="">
+                    </div>
+                    <div class="text">
+                      <p>Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+                      <p>0.95 л &#9679; 2 л</p>
+                      <p>от 3600 ₽ <span>4500 ₽</span></p>
+                    </div>
+                    <div class="discount">-25%</div>
+                  </div>
+                  <button></button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="item">
+                  <div class="item-content">
+                    <div class="pic">
+                      <img src="../images/slider3.png" title="Slide" alt="">
+                    </div>
+                    <div class="text">
+                      <p>Benjamin Moore Aura 532 Bath & Spa Waterborne Interior Paint Matte</p>
+                      <p>0.95 л &#9679; 2 л</p>
+                      <p>5200 ₽ <span>5720 ₽</span></p>
+                    </div>
+                    <div class="discount">-10%</div>
+                  </div>
+                  <button></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider--next"></div>
+        </div>
+      </div>
+      <div class="slider--mobile">
+        <div class="item big">
+          <div class="item-content">
+            <div class="pic">
+              <p>&mdash;25%</p>
+              <img src="../images/slide1.png" title="Slide" alt="">
+            </div>
+            <div class="text">
+              <p>Скидки на выделенные товары Benjamine Moore</p>
+            </div>
+          </div>
+          <button></button>
+        </div>
+        <div class="item">
+          <div class="item-content">
+            <div class="pic">
+              <img src="../images/discount.jpg" title="Slide" alt="">
+            </div>
+            <div class="text">
+              <p>Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+              <p>0.95 л</p>
+              <p>от 3600 ₽ <span>4500 ₽</span></p>
+            </div>
+          </div>
+          <button></button>
+        </div>
+        <div class="item">
+          <div class="item-content">
+            <div class="pic">
+              <img src="../images/slider3.png" title="Slide" alt="">
+            </div>
+            <div class="text">
+              <p>Benjamin Moore Aura 532 Bath & Spa Waterborne Interior Paint Matte</p>
+              <p>0.95 л</p>
+              <p>5200 ₽ <span>5720 ₽</span></p>
+            </div>
+          </div>
+          <button></button>
+        </div>
+      </div>
+      <div class="ads--group">
+        <div class="ads--item">
+          <div class="pic">
+            <img src="../images/ads11.png" title="Ad" alt="">
+          </div>
+          <div class="text">
+            <p>Профессиональный подбор цвета</p>
+            <p>Отвечаем на вопросы покупателей в течение 10 минут</p>
+          </div>
+        </div>
+        <div class="ads--item">
+          <div class="pic">
+            <img src="../images/ads2.png" title="Ad" alt="">
+          </div>
+          <div class="text">
+            <p>Широкий выбор красок</p>
+            <p>Дарим подарки и скидки до 70% всем покупателям</p>
+          </div>
+        </div>
+        <div class="ads--item">
+          <div class="pic">
+            <img src="../images/ads33.png" title="Ad" alt="">
+          </div>
+          <div class="text">
+            <p>Гарантия качества продукции</p>
+            <p>Соответствуем требованиям и стандартам качества</p>
+          </div>
+        </div>
+      </div>
+      <div class="popular">
+        <div class="title">
+          <p>Популярные категории</p>
+          <button>Все категории <span></span></button>
+        </div>
+        <div class="btns">
+          <button>Акции</button>
+          <button>Для внутренних работ</button>
+          <button>Для наружных работ</button>
+          <button>Для внутренних работ</button>
+          <button>Специального назначения</button>
+          <button>Грунтовки</button>
+          <button>Специального назначения</button>
+        </div>
+        <div class="group">
+          <div class="group--item">
+            <div class="item-wrapper">
+              <div class="text">
+                <p>Краски для стен</p>
+                <p>500+ товаров</p>
+              </div>
+              <button></button>
+            </div>
+          </div>
+          <div class="group--item">
+            <div class="item-wrapper">
+              <div class="text">
+                <p>Краски для потолка</p>
+                <p>500+ товаров</p>
+              </div>
+              <button></button>
+            </div>
+          </div>
+          <div class="group--item">
+            <div class="item-wrapper">
+              <div class="text">
+                <p>Краски для кухни и ванной</p>
+                <p>500+ товаров</p>
+              </div>
+              <button></button>
+            </div>
+          </div>
+          <div class="group--item">
+            <div class="item-wrapper">
+              <div class="text">
+                <p>Краски для пола</p>
+                <p>500+ товаров</p>
+              </div>
+              <button></button>
+            </div>
+          </div>
+        </div>
+        <button class="mobile">Все категории <span></span></button>
+      </div>
+      <div class="discount">
+        <div class="title">
+          <p>Скидки</p>
+          <button>Все скидки<span></span></button>
+        </div>
+        <div class="discount-group">
+          <div class="item">
+            <div class="item-content">
+              <div class="pic">
+                <img src="../images/discount.jpg" title="Discount" alt="">
+              </div>
+              <div class="text">
+                <p>Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+                <p>0.95 л &#9679; 2 л</p>
+                <p>от 3600 ₽ <span>4500 ₽</span></p>
+              </div>
+            </div>
+            <button></button>
+          </div>
+          <div class="item">
+            <div class="item-content">
+              <div class="pic">
+                <img src="../images/discount.jpg" title="Discount" alt="">
+              </div>
+              <div class="text">
+                <p>Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+                <p>0.95 л &#9679; 2 л</p>
+                <p>от 3600 ₽ <span>4500 ₽</span></p>
+              </div>
+            </div>
+            <button></button>
+          </div>
+          <div class="item">
+            <div class="item-content">
+              <div class="pic">
+                <img src="../images/discount.jpg" title="Discount" alt="">
+              </div>
+              <div class="text">
+                <p>Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+                <p>0.95 л &#9679; 2 л</p>
+                <p>от 3600 ₽ <span>4500 ₽</span></p>
+              </div>
+            </div>
+            <button></button>
+          </div>
+          <div class="item">
+            <div class="item-content">
+              <div class="pic">
+                <img src="../images/discount.jpg" title="Discount" alt="">
+              </div>
+              <div class="text">
+                <p>Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+                <p>0.95 л &#9679; 2 л</p>
+                <p>от 3600 ₽ <span>4500 ₽</span></p>
+              </div>
+            </div>
+            <button></button>
+          </div>
+        </div>
+        <button class="mobile">К хитам<span></span></button>
+      </div>
+      <div class="consultation">
+        <div class="pic">
+          <img src="../images/consult.png" title="Consult" alt="">
+        </div>
+        <div class="form">
+          <div class="title">
+            <p>Нужна консультация?</p>
+            <p>Оставьте свои данные, и мы перезвоним вам в ближайшее время</p>
+          </div>
+          <form>
+            <input placeholder="Ваше имя">
+            <input placeholder="Номер телефона">
+          </form>
+          <div class="btn-wrapper">
+            <p>Нажимая на кнопку «Отправить», Вы принимаете условия <span>Соглашения</span></p>
+            <button>Отправить<span></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-top">
+        <div class="top-left">
+          <div class="rating">
+            <div class="logo">
+              <img src="../images/logo.png" title="logo">
+            </div>
+            <p><span></span>5/5</p>
+            <button>Написать директору</button>
+          </div>
+          <div class="contact">
+            <div class="item">
+              <p>Телефон</p>
+              <a href="tel:8(495)120-81-55" title="phone">8 (495) 120-81-55</a>
+            </div>
+            <div class="item">
+              <p>Электронная почта</p>
+              <a href="mailto:info@kraskizdes.ru" title="email">info@kraskizdes.ru</a>
+            </div>
+            <div class="socials">
+              <a href="#"></a>
+              <a href="#"></a>
+            </div>
+            <div class="icons">
+              <img src="../images/pay1.png" title="Pay" alt="">
+              <img src="../images/pay2.png" title="Pay" alt="">
+              <img src="../images/pay3.png" title="Pay" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="menu">
+          <div class="about-us">
+            <p>О компании</p>
+            <ul>
+              <li><a href="#" title="О нас">О нас</a></li>
+              <li><a href="#" title="Бренды">Бренды</a></li>
+              <li><a href="#" title="Вакансии">Вакансии</a></li>
+              <li><a href="#" title="Для бизнеса">Для бизнеса</a></li>
+              <li><a href="#" title="Магазины">Магазины</a></li>
+              <li><a href="#" title="Оплата">Оплата</a></li>
+              <li><a href="#" title="Доставка">Доставка</a></li>
+              <li><a href="#" title="Акции">Акции</a></li>
+              <li><a href="#" title="Помощь">Помощь</a></li>
+            </ul>
+          </div>
+          <div class="catalog">
+            <p>Каталог</p>
+            <div class="wrapper">
+              <div class="left-part">
+                <ul>
+                  <li><a href="#" title="Спецпредложение">Спецпредложение</a></li>
+                  <li><a href="#" title="Краски">Краски для внутренних работ</a></li>
+                  <li><a href="#" title="Краски">Краски для наружных работ</a></li>
+                  <li><a href="#" title="Краски">Краски универсальные</a></li>
+                  <li><a href="#" title="Краски">Краски специального назначения</a></li>
+                  <li><a href="#" title="Антисептики">Антисептики, пропитки, лазури для дерева и камня</a></li>
+                  <li><a href="#" title="Лаки">Лаки, масла, воски</a></li>
+                  <li><a href="#" title="Грунтовки">Грунтовки</a></li>
+                  <li><a href="#" title="Штукатурки">Декоративные штукатурки, фактурные краски</a></li>
+                </ul>
+              </div>
+              <div class="right-part">
+                <ul>
+                  <li><a href="#" title="Краски">Декоративные дизайнерские краски</a></li>
+                  <li><a href="#" title="Пены">Монтажные пены и очистители</a></li>
+                  <li><a href="#" title="Клея">Клея, герметики, гидроизоляция</a></li>
+                  <li><a href="#" title="Затирки">Затирки, сухие смеси</a></li>
+                  <li><a href="#" title="Растворители">Растворители и очистители, спецсредства</a></li>
+                  <li><a href="#" title="Инструменты">Малярные инструменты, краскопульты</a></li>
+                  <li><a href="#" title="Морилки">Морилки по дереву</a></li>
+                  <li><a href="#" title="Обои">Стеклообои, малярный флизелин, обои под покраску</a></li>
+                  <li><a href="#" title="Каталоги">Каталоги цветов, колеровочные карты</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Интернет-магазин лакокрасочной продукции</p>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../script.js"></script>
+</body>
+
+</html>
